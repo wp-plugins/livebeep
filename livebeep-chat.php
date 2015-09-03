@@ -16,7 +16,7 @@ define('LIVEBEEP_LOGIN_ACTION',	LIVEBEEP_BASE_URL.'client/login/');
 define('LIVEBEEP_SIGNUP_URL', 	LIVEBEEP_BASE_URL.'es/signup/?cms=wordpress');
 
 add_action('init', 'livebeep_init');
-add_action('wp_header', 'livebeep_script');
+add_action('wp_head', 'livebeep_script');
 
 function livebeep_init() {
 	load_plugin_textdomain( LIVEBEEP_TEXTDOMAIN, false, dirname(plugin_basename(__FILE__)) . '/languages' );
