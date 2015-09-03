@@ -9,7 +9,7 @@ Author: LiveBeep.com
 Author URI: http://www.livebeep.com/
 */
 
-define('LIVEBEEP_BASE_URL',     'https://www.livebeep.com/');
+define('LIVEBEEP_BASE_URL',     'http://www.livebeep.com/');
 define('LIVEBEEP_TEXTDOMAIN', 	'livebeep');
 define('LIVEBEEP_ICON', 		LIVEBEEP_BASE_URL.'images/smallicon.png');
 define('LIVEBEEP_LOGIN_ACTION',	LIVEBEEP_BASE_URL.'client/login/');
